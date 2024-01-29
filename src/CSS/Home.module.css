@@ -1,0 +1,98 @@
+.header{
+    background:radial-gradient(#fff,#ffd6d6);
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col_2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col_2 p{
+    font-size: 20px;
+}
+.col_2 img{
+    mix-blend-mode: multiply;
+    width: 100%;
+}
+.col_2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* testimonial CSS */
+.testimonial{
+    margin-top: 100px;
+}
+.col_3 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.testimonial .col_3{
+    text-align: center;
+    box-shadow: 0px 0px 20px 0px black;
+    cursor: pointer;
+    transition: transform 0.5s;
+    padding: 40px 20x;
+}
+.col_3 img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+.col_3 p{
+    font-size: 16px;
+    margin: 0px 20px;
+}
+.testimonial .col_3:hover{
+    transform: translateY(-10px);
+}
+.fa.fa-star .fa-star-half-o{
+    color: red;
+    font-size: 10px;
+}
+p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+.testimonial .col_3 h3{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* brands CSS */
+.brand{
+    margin: 100px auto;
+}
+.col_5{
+    width: 150px;
+    margin-bottom: 40px;
+}
+.col_5 img{
+    cursor: pointer;
+    width: 150px;
+    filter: grayscale(100%);
+}
+.col_5 .apple{
+    mix-blend-mode: hard-light;
+}
+img:hover{
+    filter: grayscale(0);
+}
+
+@media only screen and (max-width: 600px){
+    .row{
+        text-align: center;
+    }
+    .col_2, .col_3, .col_4{
+        flex-basis: 100%;
+    }
+}
