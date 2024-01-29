@@ -15,7 +15,6 @@ function Navbar() {
       }
   }
   
-  
   return (
     <div className={style.header}>
       <div className='container'>

@@ -1,14 +1,11 @@
 import React, { useContext } from 'react'
 import style from '../CSS/Product.module.css'
 import productContext from '../Context/products/productContext'
-
-
 function ProductItem(props) {
 
     const { products } = props
     const context = useContext(productContext);
     const { getOneProduct } = context;
-
     const checkProduct = () => {
         getOneProduct(products.id);
     }
