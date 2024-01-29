@@ -52,6 +52,7 @@ function Product() {
 
   }, [setProducts])
 
+  
   return (
     <>
       <div className='small-container'>

@@ -28,6 +28,7 @@ function Footer() {
               <li className={Style.li}>Join Affiliate</li>
             </ul>
           </div>
+          
           <div className={Style.footer_col_4}>
             <h3 className={Style.h3}>Follow Us</h3>
             <ul>
