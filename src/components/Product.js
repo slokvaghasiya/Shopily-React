@@ -52,9 +52,10 @@ function Product() {
 
   }, [setProducts])
 
-  
+
   return (
     <>
+    
       <div className='small-container'>
         <div className={style.row_2}>
           <div className={style.row}>
