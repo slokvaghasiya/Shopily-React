@@ -1,1 +1,1 @@
-I created an e-commerce website for practice react-js. I used fake Rest API to fetch the products and also provide cart feature in this website.
+I created an e-commerce website to practice ReactJS. As you can see, I used a fake Rest API to fetch the products and also provide a cart feature on this website.
